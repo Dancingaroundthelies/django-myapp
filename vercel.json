@@ -1,4 +1,8 @@
 {
+  "builds": [{
+        "src": "myproject/wsgi.py",
+        "use": "@vercel/python"
+  }],
   "routes": [
     {
       "src": "/(.*)",
